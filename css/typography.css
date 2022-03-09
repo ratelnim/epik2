@@ -254,6 +254,11 @@ Background Color
 .bg-light, .badge-light { background-color: var(--iq-light) !important; }
 .bg-dark, .badge-dark { color: var(--iq-white); background-color: var(--iq-dark) !important; }
 
+.bg-goz, .badge-goz { color: var(--iq-white); background: var(--iq-goz) !important; }
+.bg-yildiz, .badge-yildiz { color: var(--iq-white); background-color: var(--iq-yildiz) !important; }
+.bg-kalp, .badge-kalp { color: var(--iq-white); background: var(--iq-kalp) !important; }
+.bg-gok-kusagi, .badge-gok-kusagi { color: var(--iq-white); background: var(--iq-gok-kusagi) !important; }
+
 /*----------------------------------------------
 Background Color Opacity
 ------------------------------------------------*/
@@ -264,6 +269,11 @@ Background Color Opacity
 .iq-bg-warning { background: var(--iq-light-warning) !important; color: var(--iq-warning) !important; }
 .iq-bg-info { background: var(--iq-light-info) !important; color: var(--iq-info-dark) !important; }
 .iq-bg-dark { background: var(--iq-light-dark) !important; color: var(--iq-dark) !important; }
+
+.iq-bg-goz, .iq-badge-goz { color: var(--iq-white); background: var(--iq-goz) !important; }
+.iq-bg-yildiz, .iq-badge-yildiz { color: var(--iq-white); background-color: var(--iq-yildiz) !important; }
+.iq-bg-kalp, .iq-badge-kalp { color: var(--iq-white); background: var(--iq-kalp) !important; }
+.iq-bg-gok-kusagi, .iq-badge-gok-kusagi { color: var(--iq-white); background: var(--iq-gok-kusagi) !important; }
 
 /*--------------*/
 .iq-bg-primary-hover:hover { background: var(--iq-light-primary) !important; color: var(--iq-primary); }
@@ -285,6 +295,11 @@ Background Color Opacity
 .iq-border-close { border: 10px solid var(--iq-light-close); }
 .iq-border-alert { border: 10px solid var(--iq-border-danger); }
 
+.iq-border-goz { border: 10px solid var(--iq-goz); }
+.iq-border-yildiz { border: 10px solid var(--iq-yildiz); }
+.iq-border-kalp { border: 10px solid var(--iq-kalp); }
+.iq-border-gok-kusagi { border: 10px solid var(--iq-gok-kusagi); }
+
 /*----------------------------------------------
 Text Color
 ------------------------------------------------*/
@@ -300,6 +315,11 @@ Text Color
 .text-black { color: var(--iq-black) !important; }
 .text-gray { color: var(--iq-body-text) !important; }
 .text-body { color: var(--iq-body-text) !important; }
+
+.text-goz { color: var(--iq-goz) !important; }
+.text-yildiz { color: var(--iq-yildiz) !important; }
+.text-kalp { color: var(--iq-kalp) !important; }
+.text-gok-kusagi { color: var(--iq-gok-kusagi) !important; }
 
 /*----------------------------------------------
 Line Height
