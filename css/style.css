@@ -55,6 +55,7 @@ NOTE: This file contains the styling for responsive Template.
 :: Privacy Policy
 :: User List
 :: Add User
+:: Son Güncellenenler
 
 ======================================
 [ End table content ]
@@ -1179,3 +1180,19 @@ Add User Page
 -----------------------------------------------------------------------*/
 .add-img-user .p-image { position: static; text-align: left; display: block; height: auto; width: auto; background: transparent; margin-top: 20px; }
 .img-extension a, .img-extension span { color: var(--iq-body-text); padding: 0 3px; font-size: 13px; }
+
+/*--------------------------------------------------------------------
+Renkler
+---------------------------------------------------------------------*/
+.kalp {color: #FE5C92;}
+.yildiz {color: #E9C04D;}
+.goz {color: #637CFF;}
+
+
+/*--------------------------------------------------------------------
+Son Güncellenenler
+---------------------------------------------------------------------*/
+.son-guncellenenler img {height: 80px; border-radius: 10px;}
+.bolum-karti h5 {font-size: 17px;}
+.bolum-karti p {font-size: 12px; font-weight: 400;}
+.bolum-karti span {margin: 0px 7px;}
