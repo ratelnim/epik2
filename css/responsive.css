@@ -257,6 +257,11 @@ NOTE: This file contains the styling for responsive Template.
 	ul.iq-edit-profile li:last-child a{border-radius: 5px;}
 	ul.iq-edit-profile li a{border-radius: 5px;}
 }
+@media(max-width:632px) {
+	.son-guncellenenler-ust img {display: flex; }
+	.son-guncellenenler-ust span{display: none; }
+}
+
 @media(max-width:580px) {
 	.welcome-text { width: 100%; }
 	.welcome-right { width: 100%; padding-top: 20px; }
@@ -265,6 +270,8 @@ NOTE: This file contains the styling for responsive Template.
 	.iq-search-bar.search-book .searchbox {width: 77%;}
 	.search-menu-options > li {margin-bottom: 20px;}
 	.iq-search-filter {margin-bottom: 0;}
+	.son-guncellenenler-alt {display: none;}
+	
 }
 @media(max-width:575px) {
 	li.checkout-product{text-align: center;}

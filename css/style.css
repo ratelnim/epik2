@@ -1185,7 +1185,10 @@ Add User Page
 /*--------------------------------------------------------------------
 Son Güncellenenler
 ---------------------------------------------------------------------*/
+.son-guncellenenler-ust img{display: none;}
+.son-guncellenenler-ust span{display: flex;}
 .son-guncellenenler img {height: 80px; border-radius: 10px;}
 .bolum-karti h5 {font-size: 17px;}
 .bolum-karti p {font-size: 16px; font-weight: 400;}
 .bolum-karti span {margin: 0px 4px;}
+
