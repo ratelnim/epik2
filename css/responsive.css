@@ -15,7 +15,7 @@ NOTE: This file contains the styling for responsive Template.
 	.iq-search-bar .searchbox { width: 330px; }
 	.iq-search-bar.search-book .searchbox { width: 280px; }
 }
-@media(min-width:1300px) {
+@media(min-width:1600px) {
 	body.sidebar-main .iq-sidebar { width: 80px; }
 	.logo-title { white-space: nowrap; }
 	body.sidebar-main .iq-menu-bt { opacity: 0; }
@@ -72,7 +72,7 @@ NOTE: This file contains the styling for responsive Template.
 	.animation-card .an-img .bodymovin { margin-bottom: -28px; }
 	.animation-card .an-img { margin-top: 0; }
 }
-@media(max-width:1299px) {
+@media(max-width:1599px) {
 	.iq-top-navbar .iq-navbar-custom .iq-menu-bt { display: block; }
 	.iq-circle-progressbar .percent { font-size: 1.3rem !important; }
 	.iq-circle-progressbar svg { width: 80px !important; height: 80px !important; }
