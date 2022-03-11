@@ -589,7 +589,7 @@ button.banner-button { position: absolute; left: auto; right: 21%; bottom: 12px;
 /* -------- CheckOut Page ---------- */
 .card-block { display: none; }
 .card-block.show { display: block; }
-.checkout-product-img { vertical-align: middle; max-height: 100px; max-width: 80px; display: inline-block; }
+.checkout-product-img { vertical-align: middle; max-height: 120px; max-width: 90px; display: inline-block; }
 .iq-checkout-policy ul li { border-bottom: 1px solid var(--iq-border); }
 .iq-checkout-policy ul li:last-child { border: none; }
 .iq-checkout-policy .iq-checkout-icon { height: 60px; width: 60px; line-height: 60px; font-size: 20px; text-align: center; }
@@ -1191,5 +1191,6 @@ Son Güncellenenler
 .bolum-karti h5 {font-size: 17px;}
 .bolum-karti p {font-size: 16px; font-weight: 400;}
 .bolum-karti span {margin: 0px 4px;}
-.hr {display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+.search-item-genre a {margin: 0px 3px;}
+.search-stats span {margin: 1px 5px;}
 
