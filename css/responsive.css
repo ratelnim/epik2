@@ -4,7 +4,7 @@ Author: iqonicthemes.in
 Design and Developed by: iqonicthemes.in
 NOTE: This file contains the styling for responsive Template.
 */
-@media(max-width:1980px) {
+@media(max-width:2500px) {
 	.iq-scrollable-block { overflow-x: hidden; overflow-y: scroll; height: 390px; }
 }
 @media(max-width:1600px) {
