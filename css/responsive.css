@@ -193,11 +193,23 @@ NOTE: This file contains the styling for responsive Template.
 	.navbar-list li:last-child>a { padding-right: 20px; }
 	.iq-page-menu-horizontal .iq-top-navbar:before, .iq-page-menu-horizontal .iq-top-navbar:after { top: 73px; }
 	.iq-top-navbar .navbar .iq-search-bar { display: none; }
+	li.premium-item {text-align: center;}
 }
 @media(max-width:979px) {
 	.iq-circle-progressbar .percent { font-size: 2.5rem !important; }
 	.iq-circle-progressbar svg { width: 200px !important; height: 200px !important; }
 	.iq-circle-progressbar { margin: 0 auto; width: 200px !important; height: 200px !important; }
+	
+}
+
+@media(max-width:879px) {
+	.search-stars {font-size: 12px;}
+	.summary {display: none;}
+	.checkout-product-details {margin: 15px 0;}
+}
+
+@media(max-width:812px) {
+	.search-stats {text-align: center; }
 }
 
 @media(max-width:767px) {
@@ -205,6 +217,7 @@ NOTE: This file contains the styling for responsive Template.
 	h3 { font-size: 1.53em;}
 	.content-page, body.sidebar-main .content-page {padding: 103px 0 0;}
 	.table { width: 100%; max-width: 100%; margin-bottom: 1rem; display: block; overflow-x: auto; }
+	.premium-table {display: table;}
 	.display-1 { font-size: 2.5rem; font-weight: 500; }
 	.display-2 { font-size: 2.3rem; font-weight: 500; }
 	.display-3 { font-size: 2rem; font-weight: 500; }
@@ -257,6 +270,7 @@ NOTE: This file contains the styling for responsive Template.
 	ul.iq-edit-profile li:last-child a{border-radius: 5px;}
 	ul.iq-edit-profile li a{border-radius: 5px;}
 }
+
 @media(max-width:632px) {
 	.son-guncellenenler-ust img {display: flex; }
 	.son-guncellenenler-ust span{display: none; }
