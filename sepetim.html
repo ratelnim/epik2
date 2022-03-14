@@ -399,7 +399,7 @@
             <div class="row">
                <div id="cart" class="card-block show p-0 col-12">
                   <div class="row align-item-center">
-                     <div class="col-md-8">
+                     <div class="col-lg-8 col-md-12">
                         <div class="iq-card">
                            <div class="iq-card-header d-flex justify-content-between iq-border-bottom mb-0">
                               <div class="iq-header-title">
@@ -607,7 +607,7 @@
                         </div>
                      </div>
                      
-                     <div class="col-md-4">
+                     <div class="col-lg-4 col-md-12">
                         <div class="iq-card">
                            <div class="iq-card-header d-flex justify-content-between iq-border-bottom mb-0">
                               <div class="iq-header-title">
@@ -877,65 +877,52 @@
                         <div class="iq-card">
                            <div class="iq-card-header d-flex justify-content-between">
                               <div class="iq-header-title">
-                                 <h4 class="card-title">Add New Address</h4>
+                                 <h4 class="card-title">Ödeme Bilgileri</h4>
                               </div>
                            </div>
                            <div class="iq-card-body">
-                              <form onsubmit="required()">
+                              <form onsubmit="required()" id="odeme-bilgi-form">
                                  <div class="row mt-3">
-                                    <div class="col-md-6">
+                                    <div class="col-sm-6">
                                        <div class="form-group">
-                                          <label>Full Name: *</label> 
+                                          <label>Ad Soyad: *</label> 
                                           <input type="text" class="form-control" name="fname" required="">
                                        </div>
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="col-sm-6">
                                        <div class="form-group"> 
-                                          <label>Mobile Number: *</label> 
+                                          <label>Telefon Numaranız: *</label> 
                                           <input type="text" class="form-control" name="mno" required="">
+                                          <span>Telefon numaranızı başında 0 olmadan yazınız. Örnek: 5554560123</span>
                                        </div>
                                     </div>
-                                    <div class="col-md-6">
+                                    <hr>
+                                    <div class="col-sm-6">
                                        <div class="form-group"> 
-                                          <label>Flat, House No: *</label> 
-                                          <input type="text" class="form-control" name="houseno" required="">
-                                       </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                       <div class="form-group"> 
-                                          <label>Landmark e.g. near apollo hospital:: *</label> 
-                                          <input type="text" class="form-control" name="landmark" required="">
-                                       </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                       <div class="form-group"> 
-                                          <label>Town/City: *</label> 
-                                          <input type="text" class="form-control" name="city" required="">
-                                       </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                       <div class="form-group"> 
-                                          <label>Pincode: *</label> 
-                                          <input type="text" class="form-control" name="pincode" required="">
-                                       </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                       <div class="form-group"> 
-                                          <label>State: *</label> 
-                                          <input type="text" class="form-control" name="state" required="">
-                                       </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                       <div class="form-group">
-                                          <label for="addtype">Address Type</label>
-                                          <select class="form-control" id="addtype">
-                                             <option>Home</option>
-                                             <option>Office</option>
+                                          <label for="city">İl: *</label>
+                                          <select class="form-control" id="city">
+                                             <option>İstanbul</option>
+                                             <option>Ankara</option>
                                           </select>
+                                          <span>E-fatura sistemi için gereklidir</span>
                                        </div>
                                     </div>
-                                    <div class="col-md-6">
-                                       <button id="savenddeliver" type="submit" class="btn btn-primary">Save And Deliver Here</button>
+                                    <div class="col-sm-6">
+                                       <div class="form-group"> 
+                                          <label for="diss">İlçe: *</label>
+                                          <select class="form-control" id="diss">
+                                             <option>İstanbul</option>
+                                             <option>Ankara</option>
+                                          </select>
+                                          <span>E-fatura sistemi için gereklidir</span>
+                                       </div>
+                                    </div>
+                                    <hr>
+                                    <div class="col-md-12">
+                                       <div class="form-group"> 
+                                          <label>Adres: *</label> 
+                                          <input type="text" class="form-control" name="address" required="">
+                                       </div>
                                     </div>
                                  </div>
                               </form>
@@ -945,15 +932,35 @@
                      <div class="col-lg-4">
                         <div class="iq-card">
                            <div class="iq-card-body">
-                              <h4 class="mb-2">Nik John</h4>
-                              <div class="shipping-address">
-                                 <p class="mb-0">9447 Glen Eagles Drive</p>
-                                 <p>Lewis Center, OH 43035</p>
-                                 <p>UTC-5: Eastern Standard Time (EST)</p>
-                                 <p>202-555-0140</p>
+                              <h4 class="mb-2">Ödeme Detayları</h4>
+                              <div class="d-flex justify-content-between mb-1">
+                                 <span>Toplam Ücret</span>
+                                 <span>760 TL</span>
+                              </div>
+                              <div class="d-flex justify-content-between mb-1">
+                                 <span>İndirim</span>
+                                 <span class="text-success">0 TL</span>
+                              </div>
+                              <div class="d-flex justify-content-between mb-1">
+                                 <span>KDV</span>
+                                 <span>40 TL</span>
                               </div>
                               <hr>
-                              <a id="deliver-address" href="javascript:void();" class="btn btn-primary d-block mt-1 next">Deliver To this Address</a>
+                              <div class="d-flex justify-content-between">
+                                 <span class="text-dark"><strong>Toplam</strong></span>
+                                 <span class="text-dark"><strong>800 TL</strong></span>
+                              </div>
+                              <div class="form-group">
+                                 <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                                    <label class="form-check-label" for="invalidCheck2">
+                                    <a href="#">Sözleşme</a> şartlarını anladım ve kabul ediyorum.
+                                    </label>
+                                 </div>
+                              </div>
+                              <div class=" text-center">
+                                 <button id="deliver-address" form="odeme-bilgi-form" type="submit" class="btn btn-primary">Siparişi Tamamla</button>
+                              </div>
                            </div>
                         </div>
                      </div>
@@ -965,25 +972,25 @@
                         <div class="iq-card">
                            <div class="iq-card-header d-flex justify-content-between">
                               <div class="iq-header-title">
-                                 <h4 class="card-title">Payment Options</h4>
+                                 <h4 class="card-title">Ödeme Yap</h4>
                               </div>
                            </div>
                            <div class="iq-card-body">
                               <div class="d-flex justify-content-between align-items-center">
                                  <div class="d-flex justify-content-between align-items-center">
                                     <img src="images/booking/cart.png" alt="" height="40" width="50">
-                                    <span>US Unlocked Debit Card 12XX XXXX XXXX 0000</span>
+                                    <span>Buraya Paytr Ekranı Gelecek</span>
                                  </div>
-                                 <span>Nik John</span>
-                                 <span>28/2020</span>
+                                 <span>Polat Alemdar</span>
+                                 <span>12/2023</span>
                               </div>
                               <form class="mt-3">
                                  <div class="d-flex align-items-center">
-                                    <span>Enter CVV: </span>
+                                    <span>Kelle Giriniz: </span>
                                     <div class="cvv-input ml-3 mr-3">
                                        <input type="text" class="form-control" required=""> 
                                     </div>
-                                    <button type="submit" class="btn btn-primary">Continue</button>
+                                    <button type="submit" class="btn btn-primary">Devam Et</button>
                                  </div>
                               </form>
                               <hr>
@@ -991,25 +998,21 @@
                                  <div class="form-group">
                                     <div class="custom-control custom-radio">
                                        <input type="radio" id="credit" name="customRadio" class="custom-control-input">
-                                       <label class="custom-control-label" for="credit"> Credit / Debit / ATM Card</label>
+                                       <label class="custom-control-label" for="credit"> Şevko</label>
                                     </div>
                                     <div class="custom-control custom-radio">
                                        <input type="radio" id="netbaking" name="customRadio" class="custom-control-input">
-                                       <label class="custom-control-label" for="netbaking"> Net Banking</label>
+                                       <label class="custom-control-label" for="netbaking"> Tombalacı Mehmet</label>
                                     </div>
                                     <div class="custom-control custom-radio">
                                        <input type="radio" id="emi" name="emi" class="custom-control-input">
-                                       <label class="custom-control-label" for="emi"> EMI (Easy Installment)</label>
+                                       <label class="custom-control-label" for="emi"> Cerrahpaşalı Halit</label>
                                     </div>
                                     <div class="custom-control custom-radio">
                                        <input type="radio" id="cod" name="cod" class="custom-control-input">
-                                       <label class="custom-control-label" for="cod"> Cash On Delivery</label>
+                                       <label class="custom-control-label" for="cod"> Baron</label>
                                     </div>
                                  </div>
-                              </div>
-                              <hr>
-                              <div class="add-card">
-                                 <a href="#"><span><i class="ri-add-box-line mr-2 font-size-18"></i>Add Gift Card</span></a>
                               </div>
                            </div>
                         </div>
@@ -1017,19 +1020,19 @@
                      <div class="col-lg-4">
                         <div class="iq-card">
                            <div class="iq-card-body">
-                              <h4 class="mb-2">Price Details</h4>
+                              <h4 class="mb-2">Ödeme Detayları</h4>
                               <div class="d-flex justify-content-between">
-                                 <span>Price 3 Items</span>
-                                 <span><strong>$1000.00</strong></span>
+                                 <span>Toplam Ücret</span>
+                                 <span><strong>760 TL</strong></span>
                               </div>
                               <div class="d-flex justify-content-between">
-                                 <span>Delivery Charges</span>
-                                 <span class="text-success">Free</span>
+                                 <span>KDV</span>
+                                 <span><strong>40 TL</strong></span>
                               </div>
                               <hr>
                               <div class="d-flex justify-content-between">
-                                 <span>Amount Payable</span>
-                                 <span><strong>$1000.00</strong></span>
+                                 <span>Ödenecek Tutar</span>
+                                 <span><strong>800 TL</strong></span>
                               </div>
                            </div>
                         </div>
