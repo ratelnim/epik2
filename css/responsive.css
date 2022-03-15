@@ -217,6 +217,7 @@ NOTE: This file contains the styling for responsive Template.
 	h3 { font-size: 1.53em;}
 	.content-page, body.sidebar-main .content-page {padding: 103px 0 0;}
 	.table { width: 100%; max-width: 100%; margin-bottom: 1rem; display: block; overflow-x: auto; }
+	.accordion-details .table {display: table;}
 	.premium-table {display: table;}
 	.display-1 { font-size: 2.5rem; font-weight: 500; }
 	.display-2 { font-size: 2.3rem; font-weight: 500; }

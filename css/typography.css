@@ -319,7 +319,7 @@ Text Color
 .text-goz { color: var(--iq-goz) !important; }
 .text-yildiz { color: var(--iq-yildiz) !important; }
 .text-kalp { color: var(--iq-kalp) !important; }
-.text-gok-kusagi { color: var(--iq-gok-kusagi) !important; }
+.text-gok-kusagi { background: var(--iq-gok-kusagi); -webkit-background-clip: text; background-clip: text; color:transparent }
 
 /*----------------------------------------------
 Line Height
