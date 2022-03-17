@@ -68,8 +68,9 @@ General
 *::-moz-selection { background: var(--iq-primary); color: var(--iq-white); text-shadow: none; }
 ::-moz-selection { background: var(--iq-primary); color: var(--iq-white); text-shadow: none; }
 ::selection { background: var(--iq-primary); color: var(--iq-white); text-shadow: none; }
-body { font-family: 'Montserrat', sans-serif; font-weight: 400; font-style: normal; font-size: 16px; line-height: 1.8; padding: 0; margin: 0; color: var(--iq-body-text); background: var(--iq-body-bg); }
-a, .btn { font-family: 'Montserrat', sans-serif; -webkit-transition: all 0.5s ease-out 0s; -moz-transition: all 0.5s ease-out 0s; -ms-transition: all 0.5s ease-out 0s; -o-transition: all 0.5s ease-out 0s; transition: all 0.5s ease-out 0s; }
+body { font-family: 'Roboto', sans-serif; font-weight: 400; font-style: normal; font-size: 16px; line-height: 1.8; padding: 0; margin: 0; color: var(--iq-body-text); background: var(--iq-body-bg); }
+p {font-family: 'Open Sans', sans-serif;}
+a, .btn { font-family: 'Nunito Sans', sans-serif; -webkit-transition: all 0.5s ease-out 0s; -moz-transition: all 0.5s ease-out 0s; -ms-transition: all 0.5s ease-out 0s; -o-transition: all 0.5s ease-out 0s; transition: all 0.5s ease-out 0s; }
 a, button, input, btn { outline: medium none !important; }
 a { color: var(--iq-primary); }
 a:hover { color: var(--iq-primary-hover); }
@@ -501,6 +502,7 @@ Buttons
 .btn-outline-info { color: var(--iq-info); border-color: var(--iq-info); }
 .btn-outline-light { color: var(--iq-light); border-color: var(--iq-light); }
 .btn-outline-dark { color: var(--iq-dark); border-color: var(--iq-dark); }
+.btn-outline-kalp { color: var(--iq-kalp); border-color: var(--iq-kalp); }
 
 /*------------------*/
 .btn-outline-primary:hover { color: var(--iq-white); background-color: var(--iq-primary); border-color: var(--iq-primary); }
@@ -511,6 +513,7 @@ Buttons
 .btn-outline-info:hover { color: var(--iq-white); background-color: var(--iq-info); border-color: var(--iq-info); }
 .btn-outline-light:hover { color: var(--iq-white); background-color: var(--iq-light); border-color: var(--iq-light); }
 .btn-outline-dark:hover { color: var(--iq-white); background-color: var(--iq-dark); border-color: var(--iq-dark); }
+.btn-outline-kalp:hover { color: var(--iq-white); background-color: var(--iq-kalp); border-color: var(--iq-kalp); }
 
 /*----------------*/
 .btn-outline-primary.disabled, .btn-outline-primary:disabled { color: var(--iq-primary); background-color: transparent; }
@@ -521,6 +524,7 @@ Buttons
 .btn-outline-info.disabled, .btn-outline-info:disabled { color: var(--iq-info); background-color: transparent; }
 .btn-outline-light.disabled, .btn-outline-light:disabled { color: var(--iq-light); background-color: transparent; }
 .btn-outline-dark.disabled, .btn-outline-dark:disabled { color: var(--iq-dark); background-color: transparent; }
+.btn-outline-kalp.disabled, .btn-outline-kalp:disabled { color: var(--iq-kalp); background-color: transparent;}
 
 /*----------------------------------------------
 Alert
