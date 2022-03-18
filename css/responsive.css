@@ -295,6 +295,8 @@ NOTE: This file contains the styling for responsive Template.
 	.checkout-product-img{margin-top: 15px;}
 	.search-box .search-input {width: 250px;}
 	.iq-top-navbar .search-box{left: 0; right: 0;}
+	.bolum-karti .bolum-satiri {font-size: 13px;}
+	.bolum-karti .bolum-satiri p {font-size: 13px;}
 }
 @media(max-width:479px) {
 	h4 {font-size: 1.100em;}

@@ -1190,10 +1190,8 @@ Son Güncellenenler
 .son-guncellenenler-ust img{display: none;}
 .son-guncellenenler-ust span{display: flex; font-weight: 500;}
 .son-guncellenenler img {height: 80px; border-radius: 10px;}
-.bolum-karti h5 {font-size: 17px;}
-.bolum-karti p {font-size: 16px; font-weight: 400;}
-.bolum-karti span {margin: 0px 4px;}
 .search-item-genre a {margin: 0px 3px;}
 .search-stats span {margin: 1px 5px;}
 .premium-table thead{font-size: 16px; font-weight:600}
 .premium-table {text-align: center;}
+.bolum-karti div.icon { width: 60px; height:90px;}
